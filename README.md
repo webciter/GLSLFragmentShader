@@ -45,6 +45,8 @@ let glslJSON = {
 
 </pre>
 
+If your having issues implementing this take a look at the source code on my website.
+
 <h3>Events</h3>
 
 <h4>GLSLFragmentShaderLoaded</h4>
