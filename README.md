@@ -50,13 +50,19 @@ let glslJSON = {
 Once the GLSL Fragment Shader has been loaded the GLSLFragmentShaderLoaded will be triggered on the parent element.
 
 <pre>
-		document.body.addEventListener("GLSLFragmentShaderLoaded", function(event){
-    // setup your canvas, then refresh if required 
+    document.body.addEventListener("GLSLFragmentShaderLoaded", function(event){
+    	// setup your canvas, then refresh if required 
     });
 </pre>
 
 <h3>GLSL JSON Object Definition</h3>
 
 Full rules of the JSON Definition can be found at, http://www.davidclews.com/viewtopic.php?f=183&t=459
+
+<h3>Settings</h3>
+
+<h4>Size</h4>
+
+The size interanly to GLSLFragmentShader Class effects the render size, the larger the size the more GPU power will be required. Use CSS css styles to stretch this.
 
 
