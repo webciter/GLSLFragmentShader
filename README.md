@@ -5,7 +5,8 @@ Implement a GLSL Fragment Shader into JavaScript
 
 <img src="http://davidclews.com/applications/programming/glsl/games_console_dashboard_background/screenshot.png" />
 
-Check out this animation at
+Check out this webgl shader at
+
 http://davidclews.com/applications/programming/glsl/games_console_dashboard_background/index.html
 
 <h3>Construct</h3>
