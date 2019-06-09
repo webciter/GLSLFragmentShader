@@ -5,6 +5,7 @@
  * This gives us the ability to create our own transition effects, which should be handled externally
  * 
  * @author David Clews
+ * @version 1.0.0
  * @authorUrl http://davidclews.com
  * @repoUrl http://github.com/webciter/GLSLFragmentShader
  * @licence MIT
