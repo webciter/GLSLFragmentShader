@@ -56,6 +56,7 @@ Once the GLSL Fragment Shader has been loaded the GLSLFragmentShaderLoaded will 
 <pre>
     document.body.addEventListener("GLSLFragmentShaderLoaded", function(event){
     	// setup your canvas, then refresh if required 
+	glslCanvas.style.display = "block"; /* show the hidden canvas or run a transition effect here */
     });
 </pre>
 
