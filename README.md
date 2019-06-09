@@ -67,7 +67,7 @@ Full rules of the JSON Definition can be found at, http://www.davidclews.com/vie
 
 <h4>GLSLFragmentShader.size</h4>
 
-The size interanly to GLSLFragmentShader Class effects the render size, the larger the size the more GPU power will be required. Use CSS css styles to stretch this. By using css styles on the canvas the GPU will not take any more Power
+The size internally to GLSLFragmentShader Class effects the render size, the larger the size the more GPU power will be required. Use CSS css styles to stretch this. By using css styles on the canvas the GPU will not take any more Power
 
 <h4>GLSLFragmentShader.enableMouse</h4>
 
