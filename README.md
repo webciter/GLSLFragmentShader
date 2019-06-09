@@ -7,6 +7,8 @@ Implement a GLSL Fragment Shader into JavaScript
 
 Check out this webgl shader at
 
+<iframe src="http://davidclews.com/applications/programming/glsl/games_console_dashboard_background/index.html"></iframe>
+
 http://davidclews.com/applications/programming/glsl/games_console_dashboard_background/index.html
 
 <h3>Construct</h3>
