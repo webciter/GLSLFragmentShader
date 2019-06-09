@@ -65,13 +65,13 @@ Full rules of the JSON Definition can be found at, http://www.davidclews.com/vie
 
 <h4>GLSLFragmentShader.size</h4>
 
-The size interanly to GLSLFragmentShader Class effects the render size, the larger the size the more GPU power will be required. Use CSS css styles to stretch this.
+The size interanly to GLSLFragmentShader Class effects the render size, the larger the size the more GPU power will be required. Use CSS css styles to stretch this. By using css styles on the canvas the GPU will not take any more Power
 
-<h4>enableMouse</h4>
+<h4>GLSLFragmentShader.enableMouse</h4>
 
 Within the JSON definition to mouse interation can be enabled and disable manually but if set in the json definition it will default to that.
 
-<h4>Where to get these Fragment Shaders</h4>
+<h3>Where to get these Fragment Shaders</h3>
 
-You can use all the fragment shaders from glslsandbox.com, by creating your own compatible JSON files, simply copy and paste then encode. Iv created a tool for this using tampermonkey it can be found at http://www.davidclews.com/viewtopic.php?f=23&p=964#p964
+You can use all the fragment shaders from glslsandbox.com, by creating your own compatible JSON files, simply copy and paste then encode. Iv created a tool for this using tampermonkey it can be found at http://www.davidclews.com/viewtopic.php?f=23&p=964#p964 remember to support there project.
 
