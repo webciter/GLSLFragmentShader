@@ -92,10 +92,7 @@ window.GLSLFragmentShader = function(parentElement = document.body, glslDefiniti
                         xhttp.onreadystatechange = function() {
                             try{
                                 if (this.readyState === 4 && this.status === 200) {
-                                    /* do the event for a successful post */
-                                    console.log(this);
-                                    /* decode hash frmo tampermoney script download generation */
-                                    //this.responseText = this.responseText.replace(/%23/g, '#');
+                                    /* do the event for a successful post|get */
                                     glslJSON = JSON.parse(this.responseText);
                                     resolve();
                                 }else if(this.readyState === 4){
@@ -108,7 +105,7 @@ window.GLSLFragmentShader = function(parentElement = document.body, glslDefiniti
                             }
                         };
 
-                        /* check if we can send a post */
+                        /* check if we can send a get */
 
                         xhttp.open("GET", glslDefinition, true);
 
