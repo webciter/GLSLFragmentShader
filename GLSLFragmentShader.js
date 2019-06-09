@@ -79,7 +79,8 @@ window.GLSLFragmentShader = function(parentElement = document.body, glslDefiniti
             /* TODO do some simple validation checks */
             
             if(typeof glslDefinition === "object"){
-                resolve(glslDefinition);
+	        glslJSON = glslDefinition;
+                resolve();
             }else if(typeof glslDefinition === "string"){
                 /* load through ajax */
                 try{
@@ -639,8 +640,8 @@ window.GLSLFragmentShader = function(parentElement = document.body, glslDefiniti
         self.canvas.width = Math.ceil(eleWidth / self.size);
         self.canvas.height = Math.ceil(eleHeight / self.size);
 
-        self.canvas.style.width = Math.ceil(eleWidth / self.size) + 'px';
-        self.canvas.style.height = Math.ceil(eleHeight / self.size) + 'px';
+        //self.canvas.style.width = Math.ceil(eleWidth / self.size) + 'px';
+        //self.canvas.style.height = Math.ceil(eleHeight / self.size) + 'px';
 
         /* expose externally */
         self.width = Math.ceil(eleWidth / self.size);
@@ -657,6 +658,11 @@ window.GLSLFragmentShader = function(parentElement = document.body, glslDefiniti
             createRenderTargets();
 
         }
+    }
+
+    /* refresh */
+    self.refresh = function(){
+        onWindowResize();
     }
  
     /* 
@@ -742,6 +748,11 @@ window.GLSLFragmentShader = function(parentElement = document.body, glslDefiniti
     /* load the json glsl definition then create it */
     loadGLSLShader().then(function(jsonData){
      
+	/* config class */
+	if(typeof glslJSON.enableMouse !== "undefined"){
+		enableMouse = glslJSON.enableMouse;
+	}
+
         init();
         
     });
