@@ -71,7 +71,7 @@ The size internally to GLSLFragmentShader Class effects the render size, the lar
 
 <h4>GLSLFragmentShader.enableMouse</h4>
 
-Within the JSON definition to mouse interation can be enabled and disable manually but if set in the json definition it will default to that.
+Within the JSON definition to mouse interaction can be enabled and disabled manually but if set it in the json definition it will default to that.
 
 <h3>Where to get these Fragment Shaders</h3>
 
