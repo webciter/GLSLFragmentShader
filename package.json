@@ -1,0 +1,23 @@
+{
+  "name": "glsl_fragment_shader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "GLSLFragmentShader.js",
+  "dependencies": {
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webciter/GLSLFragmentShader#1.0.0"
+  },
+  "keywords": [
+    "canvas","glsl","opengl"
+  ],
+  "author": "David Clews",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webciter/GLSLFragmentShader/issues"
+  },
+  "homepage": "https://github.com/webciter/GLSLFragmentShader#readme"
+}
