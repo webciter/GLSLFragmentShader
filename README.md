@@ -78,3 +78,5 @@ Within the JSON definition to mouse interaction can be enabled and disabled manu
 
 You can use all the fragment shaders from glslsandbox.com, by creating your own compatible JSON files, simply copy and paste then encode. Iv created a tool for this using tampermonkey it can be found at http://www.davidclews.com/viewtopic.php?f=23&p=964#p964 remember to support there project.
 
+A Fourm dedicated to the Fragment Shaders extracted by me http://www.davidclews.com/viewforum.php?f=180, each topic lets you download the shader json file.
+
